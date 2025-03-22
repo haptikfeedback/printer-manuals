@@ -1,0 +1,32 @@
+name: Update Manuals JSON
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # every hour (change to '0 0 * * *' for once daily)
+  workflow_dispatch:       # allows manual run from GitHub UI
+
+jobs:
+  update-json:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Run update script
+        run: |
+          pip install -r requirements.txt || echo "No requirements file"
+          python generate_manuals.py
+
+      - name: Commit and push if changes
+        run: |
+          git config user.name "GitHub Action"
+          git config user.email "action@github.com"
+          git add manuals.json
+          git commit -m "Update manuals.json" || echo "No changes to commit"
+          git push
