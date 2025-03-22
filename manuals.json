@@ -1,5 +1,13 @@
 {
   "BROTHER": {
+    "_root": {
+      "manuals": [
+        {
+          "title": "Replacing Main Board - Brother MFC-L6900dw",
+          "url": "https://synergyitx.sharepoint.com/sites/SupportFiles/Documents/_Sorted_By_Manufacturer_Model/BROTHER/Replacing%20Main%20Board%20-%20Brother%20MFC-L6900dw.pdf"
+        }
+      ]
+    },
     "Brother 7020 MFC7420 7820N DCP7010 7025": {
       "manuals": [
         {
@@ -102,6 +110,14 @@
     }
   },
   "CANON": {
+    "_root": {
+      "manuals": [
+        {
+          "title": "TX Series Service Manual",
+          "url": "https://synergyitx.sharepoint.com/sites/SupportFiles/Documents/_Sorted_By_Manufacturer_Model/CANON/TX%20Series%20Service%20Manual.pdf"
+        }
+      ]
+    },
     "Bulletins": {
       "manuals": [
         {
@@ -601,7 +617,6 @@
       ]
     }
   },
-  "EPSON": {},
   "FUJITSU": {
     "fi-5900C fi-5950": {
       "manuals": [
@@ -2682,8 +2697,15 @@
       ]
     }
   },
-  "KODIAK": {},
   "KONICA MINOLTA": {
+    "_root": {
+      "manuals": [
+        {
+          "title": "Document",
+          "url": "https://synergyitx.sharepoint.com/sites/SupportFiles/Documents/_Sorted_By_Manufacturer_Model/KONICA%20MINOLTA/Document.docx"
+        }
+      ]
+    },
     "BIZHUB 222_282_362_7728": {
       "manuals": [
         {
@@ -3156,6 +3178,10 @@
     },
     "TASKALFA 3501i-4501i-5501i": {
       "manuals": [
+        {
+          "title": "5501i_4501i_3501i_Firmware_Pack_v.7.00A",
+          "url": "https://synergyitx.sharepoint.com/sites/SupportFiles/Documents/_Sorted_By_Manufacturer_Model/KYOCERA/TASKALFA%203501i-4501i-5501i/5501i_4501i_3501i_Firmware_Pack_v.7.00A.zip"
+        },
         {
           "title": "Parts 3501i-4501i-5501i",
           "url": "https://synergyitx.sharepoint.com/sites/SupportFiles/Documents/_Sorted_By_Manufacturer_Model/KYOCERA/TASKALFA%203501i-4501i-5501i/Parts%203501i-4501i-5501i.pdf"
@@ -4726,6 +4752,22 @@
     }
   },
   "Oce": {
+    "_root": {
+      "manuals": [
+        {
+          "title": "Configuring Scan to File on Oce PW340_360_500",
+          "url": "https://synergyitx.sharepoint.com/sites/SupportFiles/Documents/_Sorted_By_Manufacturer_Model/Oce/Configuring%20Scan%20to%20File%20on%20Oce%20PW340_360_500.pdf"
+        },
+        {
+          "title": "Service_Support_Tool_v4.81Er_(Rev.0)_User_Manual",
+          "url": "https://synergyitx.sharepoint.com/sites/SupportFiles/Documents/_Sorted_By_Manufacturer_Model/Oce/Service_Support_Tool_v4.81Er_(Rev.0)_User_Manual.pdf"
+        },
+        {
+          "title": "TSM Oc\u00e9 PlotWave 350 en.gb",
+          "url": "https://synergyitx.sharepoint.com/sites/SupportFiles/Documents/_Sorted_By_Manufacturer_Model/Oce/TSM%20Oc\u00e9%20PlotWave%20350%20en.gb.pdf"
+        }
+      ]
+    },
     "Bulletins": {
       "manuals": [
         {
@@ -4789,8 +4831,6 @@
       ]
     }
   },
-  "PANASONIC": {},
-  "PITNEY BOWES": {},
   "PRINTEK": {
     "4000 Series": {
       "manuals": [
@@ -4821,7 +4861,6 @@
       ]
     }
   },
-  "PRINTRONIX": {},
   "RICOH": {
     "Aficio MP 4002": {
       "manuals": [
@@ -5050,8 +5089,70 @@
       ]
     }
   },
-  "Scan to Email": {},
-  "Scan to File": {},
+  "Scan to Email": {
+    "_root": {
+      "manuals": [
+        {
+          "title": "Configuring Scan to Email on Canon copiers",
+          "url": "https://synergyitx.sharepoint.com/sites/SupportFiles/Documents/_Sorted_By_Manufacturer_Model/Scan%20to%20Email/Configuring%20Scan%20to%20Email%20on%20Canon%20copiers.pdf"
+        },
+        {
+          "title": "Configuring Scan to Email on HP PageWide",
+          "url": "https://synergyitx.sharepoint.com/sites/SupportFiles/Documents/_Sorted_By_Manufacturer_Model/Scan%20to%20Email/Configuring%20Scan%20to%20Email%20on%20HP%20PageWide.pdf"
+        },
+        {
+          "title": "Configuring Scan to Email on the HP MFPs",
+          "url": "https://synergyitx.sharepoint.com/sites/SupportFiles/Documents/_Sorted_By_Manufacturer_Model/Scan%20to%20Email/Configuring%20Scan%20to%20Email%20on%20the%20HP%20MFPs.pdf"
+        },
+        {
+          "title": "Configuring Scan to Email on Xerox copiers",
+          "url": "https://synergyitx.sharepoint.com/sites/SupportFiles/Documents/_Sorted_By_Manufacturer_Model/Scan%20to%20Email/Configuring%20Scan%20to%20Email%20on%20Xerox%20copiers.pdf"
+        },
+        {
+          "title": "Configuring Scan to Email with Office365 on Xerox copiers",
+          "url": "https://synergyitx.sharepoint.com/sites/SupportFiles/Documents/_Sorted_By_Manufacturer_Model/Scan%20to%20Email/Configuring%20Scan%20to%20Email%20with%20Office365%20on%20Xerox%20copiers.pdf"
+        },
+        {
+          "title": "Configuring Scan to Email with Office365 on",
+          "url": "https://synergyitx.sharepoint.com/sites/SupportFiles/Documents/_Sorted_By_Manufacturer_Model/Scan%20to%20Email/Configuring%20Scan%20to%20Email%20with%20Office365%20on.pdf"
+        },
+        {
+          "title": "User prompted for SMTP Authentication when using Scan to Email",
+          "url": "https://synergyitx.sharepoint.com/sites/SupportFiles/Documents/_Sorted_By_Manufacturer_Model/Scan%20to%20Email/User%20prompted%20for%20SMTP%20Authentication%20when%20using%20Scan%20to%20Email.pdf"
+        }
+      ]
+    }
+  },
+  "Scan to File": {
+    "_root": {
+      "manuals": [
+        {
+          "title": "Config scan to file on OCE PW340 360 500",
+          "url": "https://synergyitx.sharepoint.com/sites/SupportFiles/Documents/_Sorted_By_Manufacturer_Model/Scan%20to%20File/Config%20scan%20to%20file%20on%20OCE%20PW340%20360%20500.pdf"
+        },
+        {
+          "title": "Configuring Scan to File on Canon Copiers",
+          "url": "https://synergyitx.sharepoint.com/sites/SupportFiles/Documents/_Sorted_By_Manufacturer_Model/Scan%20to%20File/Configuring%20Scan%20to%20File%20on%20Canon%20Copiers.pdf"
+        },
+        {
+          "title": "Configuring Scan to File on Konica Minolta copiers",
+          "url": "https://synergyitx.sharepoint.com/sites/SupportFiles/Documents/_Sorted_By_Manufacturer_Model/Scan%20to%20File/Configuring%20Scan%20to%20File%20on%20Konica%20Minolta%20copiers.pdf"
+        },
+        {
+          "title": "Configuring Scan to File on the HP MFPs (NEW)",
+          "url": "https://synergyitx.sharepoint.com/sites/SupportFiles/Documents/_Sorted_By_Manufacturer_Model/Scan%20to%20File/Configuring%20Scan%20to%20File%20on%20the%20HP%20MFPs%20(NEW).pdf"
+        },
+        {
+          "title": "Configuring Scan to File on the HP PageWide",
+          "url": "https://synergyitx.sharepoint.com/sites/SupportFiles/Documents/_Sorted_By_Manufacturer_Model/Scan%20to%20File/Configuring%20Scan%20to%20File%20on%20the%20HP%20PageWide.pdf"
+        },
+        {
+          "title": "Configuring Scan to File on Xerox WorkCentres",
+          "url": "https://synergyitx.sharepoint.com/sites/SupportFiles/Documents/_Sorted_By_Manufacturer_Model/Scan%20to%20File/Configuring%20Scan%20to%20File%20on%20Xerox%20WorkCentres.pdf"
+        }
+      ]
+    }
+  },
   "SHARP": {
     "MX-2610N": {
       "manuals": [
@@ -5132,7 +5233,6 @@
       ]
     }
   },
-  "TEKTRONIX": {},
   "TOSHIBA": {
     "2500C": {
       "manuals": [
@@ -5167,6 +5267,14 @@
         {
           "title": "Toshiba-Parts 2000AC--2500AC",
           "url": "https://synergyitx.sharepoint.com/sites/SupportFiles/Documents/_Sorted_By_Manufacturer_Model/TOSHIBA/ES2000AC,%20ES2500AC/Toshiba-Parts%202000AC--2500AC.pdf"
+        }
+      ]
+    },
+    "ES2505AC": {
+      "manuals": [
+        {
+          "title": "Firmware T370ALL0W1910_USB Must unzip and place folder 2000AC_2500AC on flash drive",
+          "url": "https://synergyitx.sharepoint.com/sites/SupportFiles/Documents/_Sorted_By_Manufacturer_Model/TOSHIBA/ES2505AC/Firmware%20T370ALL0W1910_USB%20Must%20unzip%20and%20place%20folder%202000AC_2500AC%20on%20flash%20drive.zip"
         }
       ]
     }
