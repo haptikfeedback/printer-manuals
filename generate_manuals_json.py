@@ -67,7 +67,7 @@ def generate_manuals_json(root_folder):
 
 # Replace with your real local path
 local_folder_path = r"C:\Users\nicho\OneDrive - Synergy IT Solutions LLC\Documents - Support Files\_Sorted_By_Manufacturer_Model"
-output_file_path = "manuals_updated.json"
+output_file_path = "manuals.json"
 
 manuals_json = generate_manuals_json(local_folder_path)
 
