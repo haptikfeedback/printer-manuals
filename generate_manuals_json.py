@@ -1,8 +1,8 @@
 import os
 import json
 
-# SharePoint base URL
-SHAREPOINT_BASE_URL = "https://synergyitx.sharepoint.com/sites/SupportFiles/Documents/_Sorted_By_Manufacturer_Model"
+# Public SharePoint folder link (anyone with the link can view)
+SHAREPOINT_PUBLIC_BASE = "https://synergyitx.sharepoint.com/:f:/s/SupportFiles/EkAC-zIBK_dJieib8J4SIR0B7oNsGG_ly9CHsGqi3oZNGQ"
 
 # Allowed file extensions
 ALLOWED_EXTENSIONS = [".pdf", ".doc", ".docx", ".zip", ".exe"]
@@ -24,8 +24,8 @@ def generate_manuals_json(root_folder):
             if os.path.isfile(item_path):
                 ext = os.path.splitext(item)[1].lower()
                 if ext in ALLOWED_EXTENSIONS:
-                    relative_path = f"{make}/{item}"
-                    sharepoint_url = f"{SHAREPOINT_BASE_URL}/{relative_path}".replace(" ", "%20")
+                    relative_path = f"{make}/{item}".replace(" ", "%20")
+                    sharepoint_url = f"{SHAREPOINT_PUBLIC_BASE}/{relative_path}"
                     root_manuals.append({
                         "title": os.path.splitext(item)[0],
                         "url": sharepoint_url
@@ -48,8 +48,8 @@ def generate_manuals_json(root_folder):
             for file in os.listdir(model_path):
                 ext = os.path.splitext(file)[1].lower()
                 if ext in ALLOWED_EXTENSIONS:
-                    relative_path = f"{make}/{model}/{file}"
-                    sharepoint_url = f"{SHAREPOINT_BASE_URL}/{relative_path}".replace(" ", "%20")
+                    relative_path = f"{make}/{model}/{file}".replace(" ", "%20")
+                    sharepoint_url = f"{SHAREPOINT_PUBLIC_BASE}/{relative_path}"
 
                     manuals.append({
                         "title": os.path.splitext(file)[0],
@@ -65,8 +65,8 @@ def generate_manuals_json(root_folder):
 
     return manuals_data
 
-# Replace with your real local path
-local_folder_path = r"C:\Users\nicho\OneDrive - Synergy IT Solutions LLC\Documents - Support Files\_Sorted_By_Manufacturer_Model"
+# Path to your synced OneDrive folder
+local_folder_path = r"D:\SynergyITX\OneDrive - Synergy IT Solutions LLC\Documents - Support Files\_Sorted_By_Manufacturer_Model"
 output_file_path = "manuals.json"
 
 manuals_json = generate_manuals_json(local_folder_path)
@@ -74,4 +74,4 @@ manuals_json = generate_manuals_json(local_folder_path)
 with open(output_file_path, "w", encoding="utf-8") as f:
     json.dump(manuals_json, f, indent=2)
 
-print(f"✅ manuals_updated.json created at: {output_file_path}")
+print(f"✅ manuals.json created at: {output_file_path}")

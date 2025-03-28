@@ -1,0 +1,15 @@
+[Mon Mar 24 16:51:00 2025] File watcher started.
+[Mon Mar 24 21:38:16 2025] File watcher started.
+[Mon Mar 24 23:29:22 2025] File watcher stopped.
+[Tue Mar 25 00:01:46 2025] File watcher started.
+[Fri Mar 28 10:46:46 2025] Change detected: D:\SynergyITX\OneDrive - Synergy IT Solutions LLC\Documents - Support Files\_Sorted_By_Manufacturer_Model\ZEBRA\ZD410\zebra-zd410-desktop-printer-series-service-manual.pdf~RFa2e39562.TMP
+[Fri Mar 28 10:46:53 2025] Change detected: D:\SynergyITX\OneDrive - Synergy IT Solutions LLC\Documents - Support Files\_Sorted_By_Manufacturer_Model\ZEBRA\ZD410\zebra-zd410-desktop-printer-series-service-manual.pdf~RFa2e39562.TMP
+[Fri Mar 28 10:46:56 2025] Change detected: D:\SynergyITX\OneDrive - Synergy IT Solutions LLC\Documents - Support Files\_Sorted_By_Manufacturer_Model\ZEBRA\ZD410\zebra-zd410-desktop-printer-series-service-manual.pdf
+[Fri Mar 28 10:47:00 2025] Change detected: D:\SynergyITX\OneDrive - Synergy IT Solutions LLC\Documents - Support Files\_Sorted_By_Manufacturer_Model\ZEBRA\ZD410\zebra-zd410-desktop-printer-series-service-manual.pdf~RFa2e39562.TMP
+[Fri Mar 28 10:47:04 2025] Change detected: D:\SynergyITX\OneDrive - Synergy IT Solutions LLC\Documents - Support Files\_Sorted_By_Manufacturer_Model\ZEBRA\ZD410\zebra-zd410-desktop-printer-series-service-manual.pdf
+[Fri Mar 28 10:47:07 2025] Change detected: D:\SynergyITX\OneDrive - Synergy IT Solutions LLC\Documents - Support Files\_Sorted_By_Manufacturer_Model\ZEBRA\ZD410\zebra-zd410-desktop-printer-series-service-manual.pdf~RFa2e39562.TMP
+[Fri Mar 28 10:47:11 2025] Change detected: D:\SynergyITX\OneDrive - Synergy IT Solutions LLC\Documents - Support Files\_Sorted_By_Manufacturer_Model\ZEBRA\ZD410\zebra-zd410-desktop-printer-series-service-manual.pdf
+[Fri Mar 28 10:48:54 2025] Change detected: D:\SynergyITX\OneDrive - Synergy IT Solutions LLC\Documents - Support Files\_Sorted_By_Manufacturer_Model\ZEBRA\ZD410
+[Fri Mar 28 10:48:57 2025] Change detected: D:\SynergyITX\OneDrive - Synergy IT Solutions LLC\Documents - Support Files\_Sorted_By_Manufacturer_Model\ZEBRA\2824\ZD410\zebra-zd410-desktop-printer-series-service-manual.pdf
+[Fri Mar 28 10:49:13 2025] Change detected: D:\SynergyITX\OneDrive - Synergy IT Solutions LLC\Documents - Support Files\_Sorted_By_Manufacturer_Model\ZEBRA\2824\ZD410
+[Fri Mar 28 10:49:17 2025] Change detected: D:\SynergyITX\OneDrive - Synergy IT Solutions LLC\Documents - Support Files\_Sorted_By_Manufacturer_Model\ZEBRA\ZD410\zebra-zd410-desktop-printer-series-service-manual.pdf
