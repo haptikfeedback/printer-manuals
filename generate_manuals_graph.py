@@ -127,7 +127,7 @@ def main():
 
     new_manuals = {}
     seen_keys = set()
-    skipped_links = []
+    skipped_items = []
 
     logger.info("📂 Scanning local OneDrive-synced folder...")
     for root, _, files in os.walk(MANUALS_FOLDER):
@@ -148,13 +148,21 @@ def main():
                         logger.info(f"🔎 Looking up: {remote_path}")
                         file_id = find_file_id(graph_client, drive_id, remote_path)
                         if not file_id:
+                            skipped_items.append({
+                                "reason": "file not found in SharePoint",
+                                "path": remote_path
+                            })
                             continue
 
                         share_url = create_anonymous_link(graph_client, drive_id, file_id)
 
                         if not is_link_valid(share_url):
                             logger.warning(f"⚠️ Skipping broken link: {share_url}")
-                            skipped_links.append(share_url)
+                            skipped_items.append({
+                                "reason": "broken anonymous link",
+                                "path": remote_path,
+                                "url": share_url
+                            })
                             continue
 
                         new_manuals.setdefault(manufacturer, {}).setdefault(model, []).append({
@@ -171,11 +179,13 @@ def main():
         json.dump(new_manuals, f, indent=4)
     logger.info(f"✅ Done. Manual links written to: {OUTPUT_JSON}")
 
-    if skipped_links:
+    if skipped_items:
         with open(SKIPPED_LINKS_LOG, "w", encoding="utf-8") as logf:
-            for link in skipped_links:
-                logf.write(link + "\n")
-        logger.info(f"⚠️ Some broken links were skipped. See {SKIPPED_LINKS_LOG}")
+            for item in skipped_items:
+                log_line = f"[{item['reason']}] {item['path']}"
+                if 'url' in item:
+                    log_line += f" ({item['url']})"
+                logf.write(log_line + "\n")
 
 if __name__ == "__main__":
     main()
